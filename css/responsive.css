@@ -1,0 +1,213 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ 
+  /* =====================================
+  header media
+======================================== */
+    
+/* =====================================
+  navbar media
+======================================== */
+    .nav-item {
+      margin-right: 0px;
+      text-align: right;
+  } 
+    .nav-link{
+      font-size: 20px;
+      padding: 5px 0px;
+    }
+/* =====================================
+    banner media
+======================================== */
+   h1{
+    font-size: 25px;
+  }
+  .banner-text h2{
+    margin: 15px 0px;
+  }
+  .banner-img img{
+    display: none;
+  }
+  .carousel-indicators {
+    margin-bottom: 0px;
+    bottom: -50px;
+    }
+    
+
+ /* =====================================
+    feature media
+======================================== */
+.feature-top p {
+	font-size: 17px;
+	line-height: 27px;
+}
+.feature{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.feature-item {
+	text-align: center;
+  margin-top: 20px;
+}
+.f-icon {
+margin-bottom: 5px;
+}
+
+.f-text h3{
+  margin-bottom: 0px;
+}
+.f-text p{
+  margin-bottom: 0px;
+  letter-spacing: 0;
+}
+ /* =====================================
+    contact  media
+======================================== */
+.contact{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.submit{
+  width: 100% !important;
+  margin-left: 0px !important;
+  height: 50px;
+  margin-top: 15px;
+}
+.c-item{
+  margin-top: 50px;
+}
+footer{
+  padding-bottom: 50px;
+}
+footer ul{
+  text-align: center;
+}
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+   /* =====================================
+    navbar media
+   ======================================== */
+   .nav-item {
+    margin-right: 0px;
+    text-align: right;
+} 
+  .nav-link{
+    font-size: 20px;
+  }
+/* =====================================
+  banner media
+======================================== */
+.banner{
+ 
+}
+.banner-img{
+  display: none;
+}
+
+/* =====================================
+    feature media
+======================================== */
+.feature{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.feature-item {
+	text-align: center;
+  margin-top: 50px;
+}
+.f-icon {
+margin-bottom: 5px;
+}
+.f-text{
+  
+}
+.f-text h3{
+  margin-bottom: 0px;
+}
+.f-text p{
+  margin-bottom: 0px;
+  letter-spacing: 0;
+}
+.contact {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.contact-top p {
+	font-size: 17px;
+}
+footer{
+  padding-bottom: 50px;
+}
+footer ul{
+  text-align: center;
+  
+  
+}
+
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+/* =====================================
+  navbar media
+======================================== */
+  .nav-item {
+    margin-right: 0px;
+    text-align: right;
+} 
+
+
+
+/* =====================================
+    feature media
+======================================== */
+  .feature-item {
+   margin-top: 50px;
+  }
+  .mt-40{
+    margin-top: 0px;
+  }
+  
+  
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+/* =====================================
+    feature media
+======================================== */
+  .feature-item{
+    margin-top: 70px;
+  }
+  .mt-40{
+    margin-top: 0px;
+  }
+
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+  .mt-40{
+    margin-top: 0px;
+  }
+   }
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  h1{
+    font-size: 32px;
+  }
+  .mt-40{
+    margin-top: 0px;
+  }
+  
+   }
